@@ -1,0 +1,59 @@
+/*degiskenlerim*/
+:root {
+  --primary-brand: #4d5ae5;
+  --Pressed-state: #404bbf;
+  --Dark: #2e2f42;
+  --Success: #31d0aa;
+  --Text: #434455;
+  --Subtle-Text: #8e8f99;
+  --Accent: #e7e9fc;
+  --Light: #f4f4fd;
+  --Modal-overlay: #2e2f42;
+  --Hero-background: #2e2f42;
+  --White-background: #ffffff;
+  --Modal-background: #fcfcfc;
+}
+
+.contanier {
+  position: relative;
+  overflow: hidden;
+  width: 1440px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+
+.sol-blok {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 156px;
+}
+
+.sol-blok .logo svg {
+  width: 115px;
+  height: 24px;
+}
+
+header .sol-blok nav {
+  margin: 76px;
+}
+
+header .sol-blok nav ul {
+  display: flex;
+  gap: 40px;
+}
+
+header .sag-blok {
+  margin-right: 156px;
+}
+
+header .sag-blok address {
+  display: flex;
+  gap: 40px;
+}
