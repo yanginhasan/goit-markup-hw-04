@@ -10,21 +10,60 @@
   --Light: #f4f4fd;
   --Modal-overlay: #2e2f42;
   --Hero-background: #2e2f42;
-  --White-background: #ffffff;
   --Modal-background: #fcfcfc;
+  --White-background: #ffffff;
 }
-
-.contanier {
+/*contanier start*/
+.container {
   position: relative;
   overflow: hidden;
   width: 1440px;
   margin: 0 auto;
 }
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: Bold;
+  font-size: 56px;
+  letter-spacing: 1.1;
+  line-height: 1.07;
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: Bold;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/*contanier end*/
+
+/*header start*/
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 72px;
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .sol-blok {
@@ -48,7 +87,9 @@ header .sol-blok nav ul {
   display: flex;
   gap: 40px;
 }
-
+header .sol-blok nav ul li a:hover {
+  color: var(--Pressed-state);
+}
 header .sag-blok {
   margin-right: 156px;
 }
@@ -57,3 +98,99 @@ header .sag-blok address {
   display: flex;
   gap: 40px;
 }
+
+header .sag-blok address a:hover {
+  color: var(--Pressed-state);
+}
+/*header end*/
+
+/*hero image section start*/
+main .hero-image {
+  display: flex;
+
+  margin: 0 auto;
+  color: #333333;
+  height: 600px;
+  background-color: #2e2f42;
+  padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  max-width: 1440px;
+}
+main .hero-image .hero-image-title {
+  max-width: 496px;
+  font-size: 56px;
+  color: var(--White-background);
+  font-weight: bold;
+  line-height: 60px;
+  text-align: center;
+}
+main .hero-image .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .hero-image .container .hero-image-btn {
+  min-width: 169px;
+  height: 56px;
+  background-color: #4d5ae5;
+  border: none;
+  color: white;
+  margin-top: 48px;
+  display: block;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+main .hero-image .container .hero-image-btn:hover {
+  background-color: var(--Pressed-state);
+}
+/*hero image section end*/
+
+/* section one start*/
+.section-one .container .visually-hidden {
+  visibility: hidden;
+}
+
+.section-one .container .feature-item .icons {
+  background-color: #f4f4fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+}
+.section-one .container .feature {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  gap: 24px;
+}
+.section-one .container .feature-item .icons {
+  max-width: 264px;
+  display: flex;
+  gap: 24px;
+}
+.section-one .container .feature-head {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2%;
+  line-heigth: 24px;
+  margin-bottom: 8px;
+  width: 264px;
+}
+.section-one .container .feature .feature-parag {
+  width: 264px;
+  font-family: roboto;
+  font-weight: 200;
+}
+/* section one end*/
+
+/* section two start*/
