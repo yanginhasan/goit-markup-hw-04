@@ -19,7 +19,15 @@
   overflow: hidden;
   width: 1440px;
   margin: 0 auto;
+  overflow: hidden;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: Bold;
@@ -70,13 +78,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-
   margin-left: 156px;
 }
 
 .sol-blok .logo svg {
   width: 115px;
   height: 24px;
+  fill: #ffffff;
 }
 
 header .sol-blok nav {
@@ -87,6 +95,7 @@ header .sol-blok nav ul {
   display: flex;
   gap: 40px;
 }
+header .sol-blok nav ul li a:hover,
 header .sol-blok nav ul li a:hover {
   color: var(--Pressed-state);
 }
@@ -172,6 +181,7 @@ main .hero-image .container .hero-image-btn:hover {
   justify-content: center;
   margin-top: 120px;
   gap: 24px;
+  margin-bottom: 120px;
 }
 .section-one .container .feature-item .icons {
   max-width: 264px;
@@ -194,3 +204,56 @@ main .hero-image .container .hero-image-btn:hover {
 /* section one end*/
 
 /* section two start*/
+.our-team .container {
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+  height: 780px;
+  background-color: var(--Light);
+  padding-top: 120px;
+  margin: top 120px;
+}
+
+.our-team .container .our-team-head {
+  display: flex;
+  justify-content: center;
+}
+/* section two start*/
+
+/* section three start*/
+.our-portfolio .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1128px;
+  margin-top: 120px;
+}
+
+.our-portfolio .container .our-portfolio-head {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 72px;
+}
+
+.our-portfolio .container .row-one-ul {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid blue;
+  gap: 24px;
+}
+
+.our-portfolio .container .row-one-ul .project-card {
+  position: relative;
+
+  width: 350px;
+  height: 420px;
+}
+
+.our-portfolio.container .row-one-ul .project-card .card-content {
+  margin-top: 20px;
+}
+/* section three end*/
+
+/* footer start*/
+
+/* footer end*/
