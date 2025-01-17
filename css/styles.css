@@ -31,6 +31,7 @@ body {
   letter-spacing: 0.32px;
   color: #434455;
   background-color: #ffffff;
+  box-sizing: border-box;
 }
 
 img {
@@ -216,37 +217,28 @@ main .hero-image .container .hero-image-btn:hover {
 
 /* section two start*/
 .our-team {
-  text-align: center;
-  padding: 50px 40px;
+  width: 1440px;
+  height: 780px;
   background-color: var(--Light);
+  margin: 0 auto;
 }
 
 .our-team .team-container .our-team-head {
   padding-top: 120px;
   padding-bottom: 72px;
   color: var(--Dark);
-  margin: 15px 0 5px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-bottom: 72px;
-}
-
-.team-container {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  display: inline-block;
-  width: 1440px;
-  height: 780;
 }
 
 .our-team-card {
   text-align: center;
   display: flex;
   padding-left: 156px;
+  padding-right: 156px;
   gap: 24px;
 }
 
@@ -256,7 +248,6 @@ main .hero-image .container .hero-image-btn:hover {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  margin-bottom: 120px;
 }
 
 .our-team-parag {
@@ -291,11 +282,11 @@ main .hero-image .container .hero-image-btn:hover {
   width: 30px;
   height: 30px;
   display: flex;
+  gap: 16px;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   background-color: var(--primary-brand);
-  fill: #ffffff;
   text-decoration: none;
   font-size: 1rem;
   transition: background-color 0.3s;
@@ -308,6 +299,7 @@ main .hero-image .container .hero-image-btn:hover {
   justify-content: center;
   flex-direction: column;
   width: 1128px;
+  margin-top: 120px;
 }
 
 .our-portfolio .container .our-portfolio-head {
@@ -320,7 +312,6 @@ main .hero-image .container .hero-image-btn:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-
   width: 1128px;
 }
 
@@ -332,25 +323,33 @@ main .hero-image .container .hero-image-btn:hover {
 
 .our-portfolio.container .row-one-ul .project-card .card-content {
   margin-top: 20px;
-  border: 1px solid red;
 }
 
 /* section three end*/
 
 /* footer start */
+.footer {
+  width: 1440px;
+  height: 780px;
+  margin: 0 auto;
+}
+
 .footer .footer-container {
   background-color: #2c2c3a;
   margin-top: 120px;
+  width: 1440px;
   height: 312px;
   padding-left: 156px;
   padding-right: 120px;
   padding-top: 100px;
   padding-bottom: 100px;
+  display: flex;
 }
 
 .footer .footer-container svg {
   width: 115px;
   height: 24px;
+  margin-bottom: 16px;
 }
 
 .footer .footer-container .logo-parag {
@@ -360,5 +359,30 @@ main .hero-image .container .hero-image-btn:hover {
 
 .footer .footer-container .logo-parag .footer-parag {
   color: var(--Light);
+}
+
+.footer .footer-container .footer-social-links {
+  width: 280px;
+  height: 80;
+  margin-left: 120px;
+}
+
+.footer .footer-container .footer-social-links .footer-social-links-parag {
+  color: var(--Light);
+}
+
+.footer .footer-container .footer-social-links svg {
+  margin-top: 16px;
+  gap: 16px;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--primary-brand);
+  fill: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s;
 }
 /* footer end*/
