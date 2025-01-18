@@ -65,7 +65,7 @@ h3 {
   letter-spacing: 2%;
   color: #2e2f42;
 }
-p {
+.feature-parag p {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -312,21 +312,18 @@ main .hero-image .container .hero-image-btn:hover {
 .our-team .team-container .social-links {
   display: flex;
   justify-content: center;
-  gap: 10px;
-  padding-bottom: 15px;
+  gap: 16px;
 }
 
 .our-team .team-container .social-links svg {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   display: flex;
-  gap: 16px;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   background-color: var(--primary-brand);
-  text-decoration: none;
-  font-size: 1rem;
+  fill: #ffffff;
   transition: background-color 0.3s;
 }
 /* section two end*/
@@ -404,42 +401,50 @@ main .hero-image .container .hero-image-btn:hover {
   color: var(--Light);
 }
 
-.footer .footer-container .logo-parag {
+.logo-parag {
   width: 264px;
   height: 112px;
   margin-right: 120px;
 }
 
-.footer .footer-container .logo-parag .footer-parag {
+.footer-parag {
   color: var(--Light);
   margin-top: 16px;
   margin-bottom: 16px;
   font-weight: 500px;
 }
 
-.footer .footer-container .footer-social-links {
+.footer-social-links {
   width: 280px;
   height: 80;
   margin-left: 120px;
 }
 
-.footer .footer-container .footer-social-links .footer-social-links-parag {
+.footer-social-links-parag {
   color: var(--Light);
   font-weight: 500px;
 }
 
-.footer .footer-container .footer-social-links svg {
-  margin-top: 16px;
+.footer-social-links {
+  display: flex;
   gap: 16px;
-  width: 30px;
-  height: 30px;
+  list-style: none;
+}
+
+.footer-link {
+  width: 40px;
+  height: 40px;
+  display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   background-color: var(--primary-brand);
   fill: #ffffff;
-  text-decoration: none;
-  font-size: 1rem;
   transition: background-color 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  background-color: #31d0aa;
 }
 /* footer end*/
