@@ -67,7 +67,7 @@ h3 {
 }
 p {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -408,7 +408,6 @@ main .hero-image .container .hero-image-btn:hover {
   width: 264px;
   height: 112px;
   margin-right: 120px;
-  border: 1px solid red;
 }
 
 .footer .footer-container .logo-parag .footer-parag {
