@@ -378,25 +378,44 @@ main .hero-image .container .hero-image-btn:hover {
   width: 1440px;
   height: 312px;
   padding-left: 156px;
-  padding-right: 120px;
   padding-top: 100px;
   padding-bottom: 100px;
   display: flex;
+  align-items: baseline;
 }
 
-.footer .footer-container svg {
-  width: 115px;
-  height: 24px;
-  margin-bottom: 16px;
+.footer-logo {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer-logo-studio {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--Light);
 }
 
 .footer .footer-container .logo-parag {
   width: 264px;
   height: 112px;
+  margin-right: 120px;
+  border: 1px solid red;
 }
 
 .footer .footer-container .logo-parag .footer-parag {
   color: var(--Light);
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-weight: 500px;
 }
 
 .footer .footer-container .footer-social-links {
@@ -407,6 +426,7 @@ main .hero-image .container .hero-image-btn:hover {
 
 .footer .footer-container .footer-social-links .footer-social-links-parag {
   color: var(--Light);
+  font-weight: 500px;
 }
 
 .footer .footer-container .footer-social-links svg {
