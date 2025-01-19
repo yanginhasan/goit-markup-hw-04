@@ -313,6 +313,7 @@ main .hero-image .container .hero-image-btn:hover {
   display: flex;
   justify-content: center;
   gap: 16px;
+]
 }
 
 .our-team .team-container .social-links svg {
@@ -441,6 +442,7 @@ main .hero-image .container .hero-image-btn:hover {
   background-color: var(--primary-brand);
   fill: #ffffff;
   transition: background-color 0.3s;
+  
 }
 
 .footer-link:hover,
